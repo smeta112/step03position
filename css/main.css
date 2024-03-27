@@ -44,9 +44,36 @@ main p{
     top: 0;
     transform: rotate(90deg);
 }
+
 .button{
     position: absolute;
     left: 50%;
     top: -14px;
     transform: translate(-50%);
+    z-index: 10;
+}
+
+.oper{
+    position: fixed;
+    top: 350px;
+    left: 0;
+}
+
+.rel_p{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.stic_p{
+    background-color: rgba(20, 90, 89, 0.662);
+    position: sticky;
+    top: 0;
+}
+
+.bird{
+    position: absolute;
+    left: 40%;
+    top: -45px;
+    z-index: 9;
 }
